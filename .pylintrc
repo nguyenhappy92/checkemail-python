@@ -1,0 +1,3 @@
+[MESSAGES CONTROL]
+disable=too-few-public-methods,relative-beyond-top-level,missing-function-docstring,missing-class-docstring,missing-module-docstring,global-statement
+good-names=gapo,app

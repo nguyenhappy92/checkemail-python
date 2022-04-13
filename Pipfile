@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+logzero = "*"
+pydantic = "*"
+fastapi = "*"
+uvicorn = {extras = ["standard"], version = "*"}
+dnspython = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
+
+[scripts]
+dev = "uvicorn main:app --reload --port 5000"
+app = "uvicorn main:app --host 0.0.0.0 --port 5000 --log-level warning"
+prod = "uvicorn main:app --reload --host 0.0.0.0 --port 5000"
