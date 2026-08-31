@@ -13,7 +13,7 @@ async def check_email(email: str):
     logger.info('got email {}'.format(email))
     from_address = 'nguyenhuuhy@gapo.com.vn'
 
-    regex = '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
+    regex = r'^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
 
     input_address = email
     address_to_verify = str(input_address)
