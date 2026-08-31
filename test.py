@@ -6,7 +6,7 @@ import dns.resolver
 fromAddress = 'nguyenhuuhy@gapo.com.vn'
 
 # Simple Regex for syntax checking
-regex = '^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
+regex = r'^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,})$'
 
 # Email address to verify
 inputAddress = input('Please enter the emailAddress to verify:')
