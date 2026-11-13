@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "e6e3c15f219d10ea9d677d4b1a6b468c1e3366b0e3d23d05403c97111408f4f1"
+            "sha256": "e2a988cb3efa5b794feea0419c8bc8239717ae5ad80cc1c1e49ad5d90a4e911b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -50,12 +50,12 @@
         },
         "dnspython": {
             "hashes": [
-                "sha256:01d9bbc4a2d76bf0db7c1f729812ded6d912bd318d3b1cf81d30c0f845dbf3af",
-                "sha256:181d3c6996452cb1189c4046c61599b84a5a86e099562ffde77d26984ff26d0f"
+                "sha256:9a4aedb833c3c1b49214d04d44d3032ab7a9135f7c1d29a549b4ff78fd82fda9",
+                "sha256:b44dc6b18f07a8b1c56676a19fbfdb5209415b046a9cece286baafa87ff3f7f1"
             ],
             "index": "pypi",
-            "markers": "python_version >= '3.10'",
-            "version": "==2.8.0"
+            "markers": "python_version >= '3.11'",
+            "version": "==2.9.0"
         },
         "fastapi": {
             "hashes": [
